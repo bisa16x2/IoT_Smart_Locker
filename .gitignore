@@ -1,0 +1,46 @@
+# Build outputs
+build/
+Build/
+Debug/
+Release/
+out/
+dist/
+.pio/
+
+# Compiled artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.class
+
+# IDE
+.idea/
+.settings/
+.vscode/
+*.launch
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.log
+*~
+# Runtime authentication credentials
+software/TCP Socket/idpasswd.txt
+
+# Local software binaries
+software/TCP Socket/iot_server
+software/TCP Socket/iot_locker_client
+software/TCP Socket/iot_kiosk_client
